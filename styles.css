@@ -68,12 +68,20 @@ body {
   width: 200px;
   display: block;
   margin: 0 auto 30px;
+  content: url("LoGO-removebg.png");
 }
 
 /* Dark mode styles */
 [data-theme="dark"] {
   background-color: #1a1a1a;
   color: #ffffff;
+  background-image: linear-gradient(
+      rgba(26, 26, 26, 0.9),
+      rgba(26, 26, 26, 0.9)
+    ),
+    url("LoGO for Dark NO BG.jpg");
+  background-repeat: repeat;
+  background-size: 100px;
 }
 
 [data-theme="dark"] .menu-container {
@@ -151,4 +159,9 @@ body {
   .menu-row {
     flex-direction: column;
   }
+}
+
+/* Dark mode styles */
+[data-theme="dark"] .main-logo {
+  content: url("LoGO for Dark NO BG.jpg");
 }
