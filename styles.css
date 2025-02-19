@@ -85,8 +85,8 @@ body {
 }
 
 [data-theme="dark"] .menu-container {
-  background-color: rgba(26, 26, 26, 0.95);
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  background-color: rgba(24, 20, 20, 0.95);
+  box-shadow: 0 0 20px rgba(26, 26, 26, 0.95);
 }
 
 [data-theme="dark"] .menu-item {
@@ -94,7 +94,7 @@ body {
 }
 
 [data-theme="dark"] .menu-item:hover {
-  background-color: rgba(243, 192, 107, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* Theme toggle button */
