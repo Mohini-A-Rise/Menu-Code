@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A-Rice Menu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style></style>
+  </head>
+  <body class="min-h-screen p-8" data-theme="light">
+    <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+
+    <div class="max-w-6xl mx-auto bg-[#f9f3e8] p-8 rounded-lg shadow-2xl">
+      <!-- Decorative top border -->
+      <div class="wheat-border mb-8"></div>
+
+      <!-- Header Section -->
+      <header class="text-center py-12">
+        <h1 class="menu-title text-6xl font-bold text-[#8b4513] mb-4">
+          A-RICE
+        </h1>
+        <p class="text-2xl text-[#a67c52] font-serif">MENU</p>
+      </header>
+      <div class="menu-container">
+        <!-- Main centered logo -->
+        <img src="LoGO-removebg.png" alt="A-RICE Logo" class="main-logo" />
+
+        <!-- Menu Container -->
+        <div class="menu-grid">
+          <!-- Menu content will be dynamically inserted here -->
+        </div>
+      </div>
+
+      <!-- Decorative bottom border -->
+      <div class="wheat-border mt-8"></div>
+    </div>
+
+    <script>
+      function toggleTheme() {
+        const body = document.body;
+        if (body.getAttribute("data-theme") === "light") {
+          body.setAttribute("data-theme", "dark");
+        } else {
+          body.setAttribute("data-theme", "light");
+        }
+      }
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
