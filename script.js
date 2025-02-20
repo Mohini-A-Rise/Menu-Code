@@ -118,7 +118,7 @@ function createMenuCard(categoryData) {
     listItem.className = "menu-item flex justify-between items-center";
     listItem.innerHTML = `
             <span>${item.name}</span>
-            <span class="text-amber-700">${item.price}₹</span>
+            <span class="text-amber-700">₹${item.price}</span>
         `;
     itemsList.appendChild(listItem);
   });
