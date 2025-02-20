@@ -79,7 +79,7 @@ body {
       rgba(26, 26, 26, 0.9),
       rgba(26, 26, 26, 0.9)
     ),
-    url("LoGO for Dark NO BG.jpg");
+    url("LoGO for Dark NO BG.png");
   background-repeat: repeat;
   background-size: 100px;
 }
@@ -163,5 +163,5 @@ body {
 
 /* Dark mode styles */
 [data-theme="dark"] .main-logo {
-  content: url("LoGO for Dark NO BG.jpg");
+  content: url("LoGO for Dark NO BG.png");
 }
