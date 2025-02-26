@@ -4,86 +4,84 @@ const menuData = {
     category: "Veg Pulao",
     image: "/images/Food Images/pulao.jpg",
     items: [
-      { name: "Veg Pulao", price: "109" },
-      { name: "Masala Pulao", price: "119" },
-      { name: "Soya Pulao", price: "119" },
-      { name: "Aalu Matter Pulao", price: "119" },
-      { name: "Veg Tava Pulao", price: "129" },
-      { name: "Jain Pulao", price: "129" },
-      { name: "Navratna Pulao", price: "149" },
-      { name: "Shahi Paneer Pulao", price: "149" },
-      { name: "Mushroom Pulao", price: "159" },
-      { name: "Sprout Pulao", price: "159" },
-      { name: "Egg Pulao", price: "159" },
-      { name: "EggKheema Pulao", price: "159" },
-    ],
-  },
-  nonVegPulao: {
-    category: "Non-Veg Pulao",
-    description: "Flavorful non-vegetarian pulao selections",
-    image: "path/to/non-veg-pulao-image.jpg",
-    items: [
-      { name: "Egg Pulao", price: "0000" },
-      { name: "Egg Kheema Pulao", price: "0000" },
-      { name: "Chicken Pulao", price: "0000" },
-      { name: "Boneless Chicken Pulao", price: "0000" },
-      { name: "Mutton Pulao", price: "0000" },
-      { name: "Jungli Pulao", price: "0000" },
+      { name: "Veg Pulao", price: "129", discountedPrice: "99" },
+      { name: "Masala Pulao", price: "129", discountedPrice: "109" },
+      { name: "Soya Pulao", price: "139", discountedPrice: "109" },
+      { name: "Aalu Matter Pulao", price: "139", discountedPrice: "109" },
+      { name: "Veg Tava Pulao", price: "149", discountedPrice: "119" },
+      { name: "Jain Pulao", price: "149", discountedPrice: "119" },
+      { name: "Navratna Pulao", price: "159", discountedPrice: "129" },
+      { name: "Shahi Paneer Pulao", price: "159", discountedPrice: "129" },
+      { name: "Mushroom Pulao", price: "169", discountedPrice: "139" },
+      { name: "Sprout Pulao", price: "169", discountedPrice: "139" },
+      { name: "Egg Pulao", price: "169", discountedPrice: "139" },
+      { name: "EggKheema Pulao", price: "169", discountedPrice: "139" },
     ],
   },
   khichdi: {
     category: "Khichdi",
     image: "images/Food Images/Khichdi.jpg",
     items: [
-      { name: "Plain Dal Khichadi", price: "89" },
-      { name: "Dhaba Style Khichadi", price: "119" },
-      { name: "Masala Dal Khichadi", price: "119" },
-      { name: "Veg Masala Dal Khichadi", price: "129" },
-      { name: "Thecha Khichadi", price: "129" },
-      { name: "Bisibele Bhaat", price: "129" },
-      { name: "Palak Khichadi", price: "149" },
+      { name: "Plain Dal Khichadi", price: "109", discountedPrice: "89" },
+      { name: "Dhaba Style Khichadi", price: "129", discountedPrice: "99" },
+      { name: "Masala Dal Khichadi", price: "129", discountedPrice: "99" },
+      { name: "Veg Masala Dal Khichadi", price: "139", discountedPrice: "109" },
+      { name: "Thecha Khichadi", price: "139", discountedPrice: "109" },
+      { name: "Bisibele Bhaat", price: "149", discountedPrice: "119" },
+      { name: "Palak Khichadi", price: "149", discountedPrice: "119" },
     ],
   },
   biryani: {
     category: "Biryani",
     image: "/images/Food Images/veg-biryani.jpg",
     items: [
-      { name: "Veg Biryani", price: "199" },
-      { name: "Paneer Tikka Biryani", price: "249" },
-      { name: "Veg Hyderabadi Dum Biryani", price: "249" },
-      { name: "Mushroom Biryani", price: "249" },
-      { name: "Egg Biryani", price: "249" },
-      { name: "Veg Hundi Biryani", price: "299" },
+      { name: "Veg Biryani", price: "189", discountedPrice: "149" },
+      { name: "Paneer Tikka Biryani", price: "229", discountedPrice: "199" },
+      {
+        name: "Veg Hyderabadi Dum Biryani",
+        price: "229",
+        discountedPrice: "199",
+      },
+      { name: "Mushroom Biryani", price: "229", discountedPrice: "199" },
+      { name: "Egg Biryani", price: "229", discountedPrice: "199" },
+      { name: "Veg Hundi Biryani", price: "249", discountedPrice: "219" },
     ],
   },
   combo: {
     category: "Combo",
     image: "/images/Food Images/Rajma-Chawal.jpg",
     items: [
-      { name: "Masala Rice", price: "119" },
-      { name: "Chole Rice", price: "149" },
-      { name: "Rajama Rice", price: "149" },
-      { name: "Mushroom Biryani", price: "249" },
+      { name: "Masala Rice", price: "129", discountedPrice: "99" },
+      { name: "Chole Rice", price: "149", discountedPrice: "119" },
+      { name: "Rajama Rice", price: "149", discountedPrice: "119" },
     ],
   },
   sweets: {
     category: "Sweets",
     image: "/images/Food Images/ukadiche_modak.jpg",
     items: [
-      { name: "Ukdiche Modak (Per Piece)", price: "12" },
-      { name: "Kesariya Birang (Per Plate)", price: "20" },
-      { name: "Kheer (Per Plate)", price: "20" },
-      { name: "Caramelised Kheer (Per Plate)", price: "20" },
-      { name: "Payasam (Per Plate)", price: "20" },
+      { name: "Ukdiche Modak (Per Piece)", price: "15", discountedPrice: "10" },
+      {
+        name: "Kesariya Birang (Per Plate)",
+        price: "20",
+        discountedPrice: "15",
+      },
+      { name: "Kheer (Per Plate)", price: "20", discountedPrice: "15" },
+      {
+        name: "Caramelised Kheer (Per Plate)",
+        price: "20",
+        discountedPrice: "15",
+      },
+      { name: "Payasam (Per Plate)", price: "20", discountedPrice: "15" },
     ],
   },
   chinese: {
     category: "Chinese",
     image: "/images/Food Images/chinese.jpg",
     items: [
-      { name: "Veg Fried Rice", price: "119" },
-      { name: "Veg Schezwan Rice", price: "129" },
-      { name: "Cocktail Rice", price: "139" },
+      { name: "Veg Fried Rice", price: "139", discountedPrice: "109" },
+      { name: "Veg Schezwan Rice", price: "149", discountedPrice: "119" },
+      { name: "Cocktail Rice", price: "159", discountedPrice: "129" },
     ],
   },
 };
@@ -102,7 +100,7 @@ function createMenuCard(categoryData) {
   const content = document.createElement("div");
   content.className = "p-6";
 
-  // Add category image only (removed description)
+  // Add category image only
   const imageSection = document.createElement("div");
   imageSection.className = "flex items-center gap-4 mb-6";
   imageSection.innerHTML = `
@@ -118,7 +116,9 @@ function createMenuCard(categoryData) {
     listItem.className = "menu-item flex justify-between items-center";
     listItem.innerHTML = `
             <span>${item.name}</span>
-            <span class="text-amber-700">₹${item.price}</span>
+            <span class="text-amber-700">
+                <s>₹${item.price}</s> <span class="text-green-600 font-bold">₹${item.discountedPrice}</span>
+            </span>
         `;
     itemsList.appendChild(listItem);
   });
@@ -150,7 +150,6 @@ function initializeMenu() {
     row.forEach((categoryKey) => {
       const categoryData = menuData[categoryKey];
       const menuCard = createMenuCard(categoryData);
-      // If it's a combo, make it take full width
       menuCard.className += row.length === 1 ? " w-full" : " flex-1";
       rowDiv.appendChild(menuCard);
     });
