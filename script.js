@@ -84,6 +84,19 @@ const menuData = {
       { name: "Cocktail Rice", price: "159", discountedPrice: "129" },
     ],
   },
+  southIndian: {
+    category: "South Indian",
+    image: "/images/Food Images/Masala-Dosa.jpg",
+    items: [
+      { name: "Idli (Per Plate)", price: "45", discountedPrice: "30" },
+      {
+        name: "Masala Dosa ",
+        price: "70",
+        discountedPrice: "40",
+      },
+      { name: "Uttapam", price: "80", discountedPrice: "50" },
+    ],
+  },
 };
 
 // Function to create menu category card
@@ -140,6 +153,7 @@ function initializeMenu() {
     ["vegPulao", "khichdi"], // First row
     ["combo", "chinese"], // Second row - combo and chinese
     ["biryani", "sweets"], // Third row
+    ["southIndian"],
   ];
 
   // Create rows and add menu cards
