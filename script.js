@@ -91,10 +91,10 @@ const menuData = {
       { name: "Idli (Per Plate)", price: "45", discountedPrice: "30" },
       {
         name: "Masala Dosa ",
-        price: "70",
-        discountedPrice: "40",
+        price: "79",
+        discountedPrice: "59",
       },
-      { name: "Uttapam", price: "80", discountedPrice: "50" },
+      { name: "Uttapam", price: "79", discountedPrice: "59" },
     ],
   },
 };
