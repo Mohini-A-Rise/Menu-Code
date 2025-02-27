@@ -68,7 +68,7 @@ const menuData = {
       },
       { name: "Kheer (Per Plate)", price: "20", discountedPrice: "15" },
       {
-        name: "Caramelised Kheer (Per Plate)",
+        name: "Caramelised Kheer(Per Plate)",
         price: "20",
         discountedPrice: "15",
       },
@@ -82,6 +82,19 @@ const menuData = {
       { name: "Veg Fried Rice", price: "139", discountedPrice: "109" },
       { name: "Veg Schezwan Rice", price: "149", discountedPrice: "119" },
       { name: "Cocktail Rice", price: "159", discountedPrice: "129" },
+    ],
+  },
+  southIndian: {
+    category: "South Indian",
+    image: "/images/Food Images/Masala-Dosa.jpg",
+    items: [
+      { name: "Idli (Per Plate)", price: "45", discountedPrice: "30" },
+      {
+        name: "Masala Dosa ",
+        price: "70",
+        discountedPrice: "40",
+      },
+      { name: "Uttapam", price: "80", discountedPrice: "50" },
     ],
   },
 };
@@ -137,9 +150,10 @@ function initializeMenu() {
 
   // Updated layout to move Chinese next to combo
   const menuLayout = [
-    ["vegPulao", "khichdi"], // First row
+    ["vegPulao", "southIndian"], // First row
     ["combo", "chinese"], // Second row - combo and chinese
-    ["biryani", "sweets"], // Third row
+    ["biryani", "khichdi"], // Third row
+    ["sweets"],
   ];
 
   // Create rows and add menu cards
