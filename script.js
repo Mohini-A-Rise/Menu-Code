@@ -68,7 +68,7 @@ const menuData = {
       },
       { name: "Kheer (Per Plate)", price: "20", discountedPrice: "15" },
       {
-        name: "Caramelised Kheer (Per Plate)",
+        name: "Caramelised Kheer(Per Plate)",
         price: "20",
         discountedPrice: "15",
       },
@@ -150,10 +150,10 @@ function initializeMenu() {
 
   // Updated layout to move Chinese next to combo
   const menuLayout = [
-    ["vegPulao", "khichdi"], // First row
+    ["vegPulao", "southIndian"], // First row
     ["combo", "chinese"], // Second row - combo and chinese
-    ["biryani", "sweets"], // Third row
-    ["southIndian"],
+    ["biryani", "khichdi"], // Third row
+    ["sweets"],
   ];
 
   // Create rows and add menu cards
