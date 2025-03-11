@@ -44,7 +44,7 @@ const menuData = {
       },
       { name: "Mushroom Biryani", price: "229", discountedPrice: "199" },
       { name: "Egg Biryani", price: "229", discountedPrice: "199" },
-      { name: "Veg Hundi Biryani", price: "249", discountedPrice: "219" },
+      { name: "Veg Handi Biryani", price: "249", discountedPrice: "219" },
     ],
   },
   combo: {
