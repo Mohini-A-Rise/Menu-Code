@@ -81,32 +81,6 @@ body {
   content: url("/images/LoGO-removebg.png");
 }
 
-/* Dark mode styles */
-[data-theme="dark"] {
-  background-color: #1a1a1a;
-  color: #ffffff;
-  background-image: linear-gradient(
-      rgba(26, 26, 26, 0.9),
-      rgba(26, 26, 26, 0.9)
-    ),
-    url("/images/LoGO for Dark NO BG.png");
-  background-repeat: repeat;
-  background-size: 100px;
-}
-
-[data-theme="dark"] .menu-container {
-  background-color: rgba(24, 20, 20, 0.95);
-  box-shadow: 0 0 20px rgba(26, 26, 26, 0.95);
-}
-
-[data-theme="dark"] .menu-item {
-  border-bottom: 1px dashed #4a4a4a;
-}
-
-[data-theme="dark"] .menu-item:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
 /* Theme toggle button */
 .theme-toggle {
   position: fixed;
@@ -152,14 +126,4 @@ body {
   .menu-row {
     flex-direction: column;
   }
-}
-
-/* Dark mode styles */
-[data-theme="dark"] .main-logo {
-  content: url("/images/LoGO for Dark NO BG.png");
-}
-
-[data-theme="dark"] .dish-image {
-  border: 3px solid #f3c06b;
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
 }

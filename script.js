@@ -7,7 +7,7 @@ const menuData = {
       { name: "Veg Pulao", price: "139", discountedPrice: "109" },
       { name: "Masala Pulao", price: "139", discountedPrice: "119" },
       { name: "Soya Pulao", price: "149", discountedPrice: "119" },
-      { name: "Aalu Matter Pulao", price: "149", discountedPrice: "119" },
+      { name: "Aalu Muttor Pulao", price: "149", discountedPrice: "119" },
       { name: "Veg Tava Pulao", price: "159", discountedPrice: "129" },
       { name: "Jain Pulao", price: "159", discountedPrice: "129" },
       { name: "Navratna Pulao", price: "169", discountedPrice: "139" },
@@ -77,7 +77,7 @@ const menuData = {
     items: [
       { name: "Masala Rice", price: "139", discountedPrice: "109" },
       { name: "Chole Rice", price: "159", discountedPrice: "129" },
-      { name: "Rajama Rice", price: "159", discountedPrice: "129" },
+      { name: "Rajma Rice", price: "159", discountedPrice: "129" },
     ],
   },
   sweets: {
