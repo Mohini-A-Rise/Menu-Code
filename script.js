@@ -31,6 +31,20 @@ const menuData = {
       { name: "Palak Khichadi", price: "149", discountedPrice: "119" },
     ],
   },
+  southIndian: {
+    category: "South Indian",
+    image: "/images/Food Images/Masala-Dosa.jpg",
+    items: [
+      { name: "Idli (Per Plate)", price: "69", discountedPrice: "39" },
+      {
+        name: "Masala Dosa ",
+        price: "99",
+        discountedPrice: "69",
+      },
+      { name: "Uttapam", price: "99", discountedPrice: "69" },
+      { name: "Appe", price: "99", discountedPrice: "69" },
+    ],
+  },
   biryani: {
     category: "Biryani",
     image: "/images/Food Images/veg-biryani.jpg",
@@ -45,6 +59,16 @@ const menuData = {
       { name: "Mushroom Biryani", price: "239", discountedPrice: "209" },
       { name: "Egg Biryani", price: "239", discountedPrice: "209" },
       { name: "Veg Handi Biryani", price: "259", discountedPrice: "229" },
+    ],
+  },
+
+  chinese: {
+    category: "Chinese",
+    image: "/images/Food Images/chinese.jpg",
+    items: [
+      { name: "Veg Fried Rice", price: "149", discountedPrice: "119" },
+      { name: "Veg Schezwan Rice", price: "159", discountedPrice: "129" },
+      { name: "Cocktail Rice", price: "169", discountedPrice: "139" },
     ],
   },
   combo: {
@@ -73,29 +97,6 @@ const menuData = {
         discountedPrice: "15",
       },
       { name: "Payasam (Per Plate)", price: "20", discountedPrice: "15" },
-    ],
-  },
-  chinese: {
-    category: "Chinese",
-    image: "/images/Food Images/chinese.jpg",
-    items: [
-      { name: "Veg Fried Rice", price: "149", discountedPrice: "119" },
-      { name: "Veg Schezwan Rice", price: "159", discountedPrice: "129" },
-      { name: "Cocktail Rice", price: "169", discountedPrice: "139" },
-    ],
-  },
-  southIndian: {
-    category: "South Indian",
-    image: "/images/Food Images/Masala-Dosa.jpg",
-    items: [
-      { name: "Idli (Per Plate)", price: "69", discountedPrice: "39" },
-      {
-        name: "Masala Dosa ",
-        price: "99",
-        discountedPrice: "69",
-      },
-      { name: "Uttapam", price: "99", discountedPrice: "69" },
-      { name: "Appe", price: "99", discountedPrice: "69" },
     ],
   },
 };
