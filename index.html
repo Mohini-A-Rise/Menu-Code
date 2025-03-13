@@ -42,13 +42,6 @@
     </style>
   </head>
   <body class="min-h-screen p-4 sm:p-8 bg-gray-100" data-theme="light">
-    <button
-      class="theme-toggle fixed top-4 right-4 z-50 bg-white p-2 rounded-full shadow-lg"
-      onclick="toggleTheme()"
-    >
-      🌓
-    </button>
-
     <div
       class="max-w-6xl mx-auto bg-[#f9f3e8] p-4 sm:p-8 rounded-lg shadow-2xl"
     >
@@ -127,16 +120,6 @@
       </div>
     </div>
 
-    <script>
-      function toggleTheme() {
-        const body = document.body;
-        if (body.getAttribute("data-theme") === "light") {
-          body.setAttribute("data-theme", "dark");
-        } else {
-          body.setAttribute("data-theme", "light");
-        }
-      }
-    </script>
     <script src="script.js"></script>
   </body>
 </html>
