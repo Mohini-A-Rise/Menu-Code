@@ -23,41 +23,108 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <style></style>
+    <style>
+      .menu-container {
+        margin-top: 2rem;
+      }
+      .dish-image {
+        max-height: 300px;
+        object-fit: cover;
+      }
+      @media (max-width: 640px) {
+        .menu-title {
+          font-size: 1.5rem;
+        }
+        .dish-image {
+          max-height: 200px;
+        }
+      }
+    </style>
   </head>
-  <body class="min-h-screen p-8" data-theme="light">
-    <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+  <body class="min-h-screen p-4 sm:p-8 bg-gray-100" data-theme="light">
+    <button
+      class="theme-toggle fixed top-4 right-4 z-50 bg-white p-2 rounded-full shadow-lg"
+      onclick="toggleTheme()"
+    >
+      🌓
+    </button>
 
-    <div class="max-w-6xl mx-auto bg-[#f9f3e8] p-8 rounded-lg shadow-2xl">
+    <div
+      class="max-w-6xl mx-auto bg-[#f9f3e8] p-4 sm:p-8 rounded-lg shadow-2xl"
+    >
       <!-- Decorative top border -->
       <div class="wheat-border mb-8"></div>
 
       <!-- Header Section -->
-      <header class="text-center py-12">
-        <h1 class="menu-title text-6xl font-bold text-[#8b4513] mb-4">
+      <header class="text-center py-8 sm:py-12">
+        <h1
+          class="menu-title text-4xl sm:text-6xl font-bold text-[#8b4513] mb-4"
+        >
           A-RICE
         </h1>
-        <p class="text-2xl text-[#a67c52] font-serif">MENU</p>
-        <p class="text-1xl text-[#a67c52] font-serif">
-          COMING SOON ON ZOMATO & SWIGGY
+        <p class="text-xl sm:text-2xl text-[#a67c52] font-serif">MENU</p>
+        <p class="text-sm sm:text-base text-[#a67c52] font-serif">
+          COMING SOON ON ZOMATO
         </p>
       </header>
-      <div class="menu-container">
-        <!-- Main centered logo -->
+
+      <!-- Main centered logo -->
+      <div class="flex justify-center mb-8">
         <img
           src="/images/LoGO-removebg.png"
           alt="A-RICE Logo"
-          class="main-logo"
+          class="main-logo w-48 sm:w-64"
         />
+      </div>
 
-        <!-- Menu Container -->
-        <div class="menu-grid">
-          <!-- Menu content will be dynamically inserted here -->
-        </div>
+      <!-- Menu Container -->
+      <div class="menu-container">
+        <!-- Menu content will be dynamically inserted here -->
       </div>
 
       <!-- Decorative bottom border -->
       <div class="wheat-border mt-8"></div>
+
+      <!-- Contact Section -->
+      <div class="contact-section mt-8 text-center">
+        <h2 class="text-xl sm:text-2xl text-[#8b4513] font-serif mb-6">
+          Contact Us
+        </h2>
+        <div
+          class="flex flex-col sm:flex-row justify-center items-stretch gap-4 max-w-2xl mx-auto"
+        >
+          <a
+            href="https://wa.me/918329270552"
+            class="flex items-center justify-center hover:text-[#8b4513] transition-colors bg-white p-4 rounded-lg shadow-md flex-1 min-w-[200px] group"
+          >
+            <img
+              src="/images/whatsapp.svg"
+              alt="WhatsApp"
+              class="w-6 h-6 mr-3"
+            />
+            <span>+91 83292 70552</span>
+          </a>
+          <a
+            href="https://www.instagram.com/a_rice_feedyourfire?igsh=ODMzbW94bXYxbDF3"
+            target="_blank"
+            class="flex items-center justify-center hover:text-[#8b4513] transition-colors bg-white p-4 rounded-lg shadow-md flex-1 min-w-[200px] group"
+          >
+            <img
+              src="/images/instagram.svg"
+              alt="Instagram"
+              class="w-6 h-6 mr-3"
+            />
+            <span>Instagram</span>
+          </a>
+          <a
+            href="mailto:amravati_online@a-rice.in"
+            class="flex items-center justify-center hover:text-[#8b4513] transition-colors bg-white p-4 rounded-lg shadow-md flex-1 min-w-[200px] group"
+          >
+            <img src="/images/envelope.svg" alt="Email" class="w-6 h-6 mr-3" />
+            <span>amravati_online@a-rice.in</span>
+          </a>
+        </div>
+      </div>
     </div>
 
     <script>
