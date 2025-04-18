@@ -134,10 +134,7 @@ function createMenuCard(categoryData) {
       "menu-item flex flex-col sm:flex-row justify-between items-start sm:items-center p-2 bg-gray-50 rounded-lg";
     listItem.innerHTML = `
       <span class="text-[#8b4513] font-medium mb-1 sm:mb-0">${item.name}</span>
-      <span class="text-amber-700">
-        <s class="text-gray-500">₹${item.price}</s> 
-        <span class="text-green-600 font-bold ml-2">₹${item.discountedPrice}</span>
-      </span>
+      <span class="text-amber-700 font-bold">₹${item.price}</span>
     `;
     itemsList.appendChild(listItem);
   });
