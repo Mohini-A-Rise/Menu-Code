@@ -124,112 +124,26 @@
       </div>
     </div>
 
-    <!-- Floating Zomato Order Button -->
-    <a
-      href="https://link.zomato.com/xqzv/rshare?id=103380785305631c8"
-      target="_blank"
-      class="fixed bottom-6 right-6 z-50 bg-[#cb202d] hover:bg-[#a71b25] text-white font-bold py-4 px-6 rounded-full shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl flex items-center gap-2"
-    >
-      <svg
-        width="32"
-        height="32"
-        viewBox="0 0 64 64"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        class="inline-block mr-2 animate-bounce"
+    <!-- Floating Order Buttons -->
+    <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-4">
+      <!-- Zomato Button -->
+      <a
+        href="https://link.zomato.com/xqzv/rshare?id=103380785305631c8"
+        target="_blank"
+        class="bg-[#e33644] hover:bg-[#e33644] text-white p-0 rounded-full shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl flex items-center justify-center"
       >
-        <!-- Bowl -->
-        <path
-          d="M8 32c0 13.255 10.745 24 24 24s24-10.745 24-24H8z"
-          fill="#A0522D"
-        />
-        <path
-          d="M8 32h48c0 13.255-10.745 24-24 24S8 45.255 8 32z"
-          stroke="#5C4033"
-          stroke-width="2"
-        />
+        <img src="/images/zomato.svg" alt="Zomato" class="w-12 h-12" />
+      </a>
 
-        <!-- Rice -->
-        <ellipse
-          cx="32"
-          cy="28"
-          rx="20"
-          ry="12"
-          fill="#F5F5DC"
-          stroke="#E0D8B0"
-          stroke-width="1.5"
-        />
-
-        <!-- Steam -->
-        <path
-          d="M24 12c-2 2-2 4 0 6"
-          stroke="#ccc"
-          stroke-width="2"
-          stroke-linecap="round"
-        >
-          <animateTransform
-            attributeName="transform"
-            type="translate"
-            values="0 0; 0 -5; 0 0"
-            dur="2s"
-            repeatCount="indefinite"
-          />
-        </path>
-        <path
-          d="M32 8c-2 2-2 4 0 6"
-          stroke="#ccc"
-          stroke-width="2"
-          stroke-linecap="round"
-        >
-          <animateTransform
-            attributeName="transform"
-            type="translate"
-            values="0 0; 0 -5; 0 0"
-            dur="2s"
-            begin="0.2s"
-            repeatCount="indefinite"
-          />
-        </path>
-        <path
-          d="M40 10c-2 2-2 4 0 6"
-          stroke="#ccc"
-          stroke-width="2"
-          stroke-linecap="round"
-        >
-          <animateTransform
-            attributeName="transform"
-            type="translate"
-            values="0 0; 0 -5; 0 0"
-            dur="2s"
-            begin="0.4s"
-            repeatCount="indefinite"
-          />
-        </path>
-
-        <!-- Fire under bowl -->
-        <g transform="translate(18, 55)">
-          <path d="M4 0c0-2 2-4 4-4s4 2 4 4-2 4-4 4-4-2-4-4z" fill="#FF6B00">
-            <animate
-              attributeName="d"
-              dur="1s"
-              repeatCount="indefinite"
-              values="M4 0c0-2 2-4 4-4s4 2 4 4-2 4-4 4-4-2-4-4z;
-                      M4 0c0-2.5 2.5-4.5 4-4s3.5 2 3.5 4-1.5 4-3.5 4-4-1.5-4-4z;
-                      M4 0c0-2 2-4 4-4s4 2 4 4-2 4-4 4-4-2-4-4z"
-            />
-          </path>
-          <path d="M10 0c0-1 1-2 2-2s2 1 2 2-1 2-2 2-2-1-2-2z" fill="#FFA500">
-            <animate
-              attributeName="opacity"
-              values="1;0.5;1"
-              dur="1s"
-              repeatCount="indefinite"
-            />
-          </path>
-        </g>
-      </svg>
-      Order Now
-    </a>
+      <!-- Swiggy Button -->
+      <a
+        href="https://sds.swig.gy/HNqhN13RLX6"
+        target="_blank"
+        class="hover:bg-[#e67300] text-white p-4 rounded-full shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl flex items-center justify-center"
+      >
+        <img src="/images/swiggy.svg" alt="Swiggy" class="w-12 h-12" />
+      </a>
+    </div>
 
     <script src="script.js"></script>
   </body>
